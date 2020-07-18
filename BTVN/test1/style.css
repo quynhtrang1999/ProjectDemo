@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.container {
+    width: 90%;
+    margin: 25px auto;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.logo {
+    height: 100px;
+}
+.logo_Apha {
+    width: 14.2%;
+    float: left;
+}
+.logo_text {
+    line-height: 40px;
+    width: 70%;
+    float: left;
+}
+.logo_text>p{
+    margin-left: 20%;
+    font-size: 34px;
+}
+.logo_text p>span {
+    color: #c61f1f;
+    text-shadow: 1.3px 1.3px 1.3px #000;
+}
+.logo_text>span{
+    margin-left: 33%;
+    font-size: 33px;
+    text-shadow: 1.3px 1.3px 1.3px #000;
+}
+.smart {
+    width: 14%;
+    padding-right: 15px;
+    float: right;
+}
+.menu {
+    height: 55px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#f9af31,#f99111);
+    line-height: 60px;
+    border: 2px solid #e87f00;
+    border-radius: 9px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu .list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.menu .list  li{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 1.5%;
+    position: relative;
+}
+.menu .list .login{
+    float: right;
+}
+.menu .list li a:hover {
+    color: #000000;
+}
+.infor {
+    height: 690px;
+    margin-top: 40px;
+}
+.left {
+    float: left;
+    width: 75%;
+}
+.left>h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    color: #d91d2d;
+    text-shadow: 1.3px 1.3px 1.3px #000;
+}
+.left>img,p {
+    width: 97%;
+}
+.left>p {
+    font-size: 20px;
+    text-align: justify;
+}
+.right {
+    width: 24%;
+    height: 680px;
+    border: 2px solid #ddd;
+    box-shadow: 1px 1px 1px #eee;
+    border-radius: 15px;
+    float: right;
+}
+.right>p {
+    color: red;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 7%;
+}
+.right>p:after {
+    background-color: red;
+    content: "";
+    display: block;
+    height: 3px;
+    width: 18.5%;
+    position: absolute;
+    margin-top: -8px;
+}
+.right>img {
+    height: 87%;
+    width: 87%;
+    margin-top: 13px;
+    margin-left: 6%;
+}
+footer {
+    height: 55px;
+    font-size: 21.5px;
+    text-align: center;
+    margin: 70px auto 0 auto;
+    background-image: linear-gradient(#f9af31,#f99111);
+    color: #fff;
+    line-height: 60px;
+    border: 2px solid #ee935b;
+    border-radius: 9px;
+}
+footer:hover {
+    color: #000000;
+}

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 85%;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+.navbar-brand>img {
+    width: 101px;
+}
+.collapse {
+    float: right;
+}
+.nav>li>a {
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav>li>a.active, .navbar-default .navbar-nav>li>a:hover {
+    color: #0ba25e;
+}
+.nav>li>a#active {
+    color: #0ba25e;
+}
+.fa-bell:before {
+    content: "\f0f3";
+    font-size: large;
+}
+.nav>li>a>img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #0ba25e;
+}
+.nav>li>a.text {
+    margin-top: 10px;
+}
+#epl-btn {
+    background-color: #324554;
+    outline: 1px solid #324554;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+#epl-btn>a {
+    color: #fff;
+}
+
+.bell,.messenger {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+.bell {
+    padding: 11px 18px;
+    left: 10px;
+    background-color: #0ba25e;
+}
+.messenger {
+    padding: 11px 15px;
+    right: 10px;
+    background-color: #6faced;
+}
+.bell>a, .messenger>a {
+    color: #fff;
+    font-size: 20px;
+}

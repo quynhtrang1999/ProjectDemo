@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divece-width, initial-scale1.0">
+        <title>Start jQuery</title>
+        <style>
+            .blue {
+                background-color: sandybrown;
+                color: white;
+                font-size: 18px;
+                padding: 20px;
+            }
+            div {
+                width: 150px;
+                height: 150px;
+                background-color: teal;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Start JQuery</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Animi sed impedit magnam placeat maiores accusamus,
+              totam quos laudantium, ratione aliquid possimus explicabo
+               unde facilis vitae. Rerum cupiditate corrupti eius reiciendis.
+        </p>
+        <p class="line2">setTimeOut</p>
+        <button onclick="toggle()">Toggle</button>
+        <div></div>
+        <button>Change Color</button>
+        <script src="jquery-3.5.1.min.js"></script>
+        <script>
+            // $(function () {
+            //     alert('It\'s work');
+                // setTimeout(() => {
+                //     $("p.line1").hide();
+                // }, 10000)
+            //     setTimeout(() => {
+            //         $("p.line2").css('color', 'red');
+            //         $("h2").css({
+            //             'color': 'white',
+            //             'background': 'gray'
+            //         });
+            //         $("p").addClass('blue');
+            //     }, 2000)
+            //     setTimeout(() => {
+            //         $("p").removeClass('blue');
+            //     }, 6000)
+            // })
+            // let toggle = () => {
+            //     $("p").toggleClass('blue');
+            // }
+            $(function () {
+                $("p").dblclick(function () {
+                    $(this).css('color', '#e100ff');
+                });
+                $("button").click(function () {
+                    $("div").css('background-color', 'orange');
+                });
+                $("div").mouseenter(function () {
+                    $(this).css('background-color', 'gray');
+                });
+            })
+        </script>
+    </body>
+</html>

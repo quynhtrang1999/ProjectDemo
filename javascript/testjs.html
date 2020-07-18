@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divece-width, initial-scale1.0">
+        <title>Documents</title>
+    </head>
+    <body>
+        <form>
+            <h1>Mời nhập 2 số a và b</h1>
+            <label for="soA">Số a</label><br>
+            <input type="number" name="" id="soA"><br>
+            <label for="soB">Số b</label><br>
+            <input type="number" id="soB"><br>
+            <button onclick="Sum()">Tổng</button><br>
+            <input id="sum" type="number">
+        </form>
+        <script>
+            let Sum = () => {
+                let a = parseInt(document.getElementById('soA').value);
+                let b = parseInt(document.getElementById('soB').value);
+                document.getElementById('sum').value = a + b;
+            }
+        </script>
+    </body>
+</html>

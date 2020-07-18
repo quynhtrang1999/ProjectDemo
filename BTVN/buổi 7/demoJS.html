@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divece-width, initial-scale1.0">
+        <title>Demo JavaScript</title>
+        <script>
+            alert('This is JavaScript');
+            console.log('this message only appear on console');
+        </script>
+    </head>
+    <body>
+        <h2>My first JavaScript</h2>
+        <p id="java"></p>
+        <p>Kết quả</p>
+        <div id="result"></div><br>
+        <button onclick="alert('Clicked')">Click me!</button>
+        <button onclick="clickButton()">Click me!</button>
+        <button onclick="displayDate()">Time???</button><br>
+        <p id="date"></p>
+        <script>
+            document.getElementById('java').innerHTML = "<i>Mai Quỳnh Trang</i>";
+            document.write('This is random');
+
+            let isconfirm = confirm('bạn có muốn thoát không?')
+            if(isconfirm) {
+                document.getElementById('result').innerHTML = "Yes";
+            }else   document.getElementById('result').innerHTML = "No";
+
+            function sum(a, b) {
+                return a + b;
+            }
+            console.log(sum(3,5));
+            let sumValue = sum(3,4);
+            console.log(sumValue);
+
+            function isEven(evenNumber) {
+                return evenNumber % 2 == 0;
+            }
+            console.log(isEven(4));
+
+            let person = {
+                firstName: 'Trang',
+                lastName: 'Mai',
+                age: '21',
+                getFullName: function () {
+                    return this.firstName + ' ' + this.lastName
+                }
+            }
+            console.log(person.getFullName());
+
+            function clickButton () {
+                alert('Clicked')
+            }
+            function displayDate () {
+                document.getElementById("date").innerHTML = Date();
+            }
+
+            function giaiThua(so) {
+                let giaithua = 1;
+                for (let i=2; i <= so; i++) {
+                    giaithua *= i;
+                }
+                return giaithua;
+            }
+            console.log(giaiThua(4));
+            
+            function isSNT(soNT) {
+                if(soNT < 2)    return false;
+                for(let i = 2; i <= Math.sqrt(soNT); i++) {
+                    return soNT % i != 0;
+                }
+            }
+            console.log(isSNT(4));
+            // let arr = [3, 2, 6, 1, 8];
+            // arr.forEach(function(value, index) {
+            //     console.log(value);
+            // })
+            // for(let i = 0; i < arr.length; i++) {
+            //     console.log(arr[i]);
+            // }
+
+            function Mang(so) {
+                let txt = [];
+                for (let i = 2; i <= so; i++) {
+                    if(isSNT(i)) {
+                        txt.push(i);
+                    }
+                }
+                return txt;
+            }
+            console.log(Mang(10));
+
+        </script>
+    </body>
+</html>
