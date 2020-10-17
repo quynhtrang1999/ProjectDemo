@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+}
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: hsl(165, 71%, 36%);
+    color: #fff;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand { 
+    color: #fff !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #4CAF50 !important;
+}
+.my-container-fluid {
+    padding: 60px 50px;
+}
+.logo-small {
+    font-size: 50px;
+}
+.logo {
+    color: #2d2d30;
+    font-size: 200px;
+}
+.btn {
+    transition: box-shadow 0.5s;
+}
+.btn:hover {
+    box-shadow: 10px 0px 40px rgba(0,0,0, .5);
+    background-color: hsl(165, 71%, 36%);
+    color: #fff;
+}

@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 85px;
+    background-color: #3b5998;
+    color: white;
+}
+.mar {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.header .logo {
+    width: 58%;
+    line-height: 85px;
+}
+.header .logo img{
+    width: 35%;
+    margin-top: 15px;
+    margin-left: -23px;
+}
+.header .login {
+    display: inline-flex;
+    margin-top: 20px;
+}
+.header .login .email{
+    margin-left: 3%;
+}
+.header .login .email input{
+    height: 22px;
+    border: 1px solid #000;
+    margin: 4px 0px 4px 0px;
+}
+.header .login button{
+    width: 130px;
+    height: 25px;
+    margin-left: 3%;
+    margin-top: 17px;
+    color: white;
+    font-size: 13px;
+    background-color: #4265aa;
+    border: 1px solid #273d68;
+}
+.header .login button:hover {
+    background-color: #3b5998;
+}
+.header .login .email a{
+    text-decoration: none;
+    color: #96afe0;
+}
+.header .login .email a:hover{
+    text-decoration: underline;
+}
+.body {
+    height: 625px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(211,217,232,1) 96%, rgba(223,227,239,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(96%, rgba(211,217,232,1)), color-stop(100%, rgba(223,227,239,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(211,217,232,1) 96%, rgba(223,227,239,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(211,217,232,1) 96%, rgba(223,227,239,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(211,217,232,1) 96%, rgba(223,227,239,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(211,217,232,1) 96%, rgba(223,227,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfe3ef', GradientType=0 );
+}
+.body .left {
+    width: 60%;
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0e385f;
+}
+.body .left img{
+    width: 95%;
+}
+.body .right {
+    margin-top: 25px;
+}
+.body .right form h1 {
+    margin-left: 7px;
+    font-size: 36px;
+}
+.body .right form .p1 {
+    font-size: 20px;
+    margin: 13px auto 18px 7px;
+}
+.body .right form>input {
+    height: 37px;
+    margin: 0px 0px 10px 7px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #95a0c0;
+    font-size: 18px;
+}
+.body .right form #name {
+    width: 46%;
+}
+.body .right form #text {
+    width: 96.3%;
+}
+.body .right form .title {
+    height: 33px;
+    line-height: 40px;
+    color: rgb(128, 126, 126);
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 7px;
+}
+.body .right form select {
+    height: 30px;
+    border: 1px solid #95a0c0;
+    padding-left: 5px;
+}
+.body .right form #day {
+    width: 65px;
+    margin-left: 7px;
+    margin-right: -3px;
+}
+.body .right form #month {
+    width: 87px;
+    margin-right: -3.5px;
+}
+.body .right form #year {
+    width: 67px;
+}
+.body .right form .gender>input{
+    margin-left: 15px;
+    margin-bottom: 17px;
+}
+.body .right form .gender .label1 {
+    font-size: 18px;
+}
+.body .right form .p2 {
+    color: rgb(105, 104, 104);
+    font-size: 11px;
+    margin-left: 7px;
+}
+.body .right form .p2>a{
+    text-decoration: none;
+    color: #425492;
+}
+.body .right form .p2>a:hover{
+    text-decoration: underline;
+}
+.body .right form>button {
+    width: 47%;
+    height: 39px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 23px 0px 35px 0px;
+    border: 1px solid #557055;
+    background-color: #508939;
+    margin-left: 7px;
+}
+.body .right form>button:hover {
+    background-color: #5c9049;
+}
+.body .right form .p3 {
+    color: rgb(88, 88, 88);
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 7px;
+}
+.body .right form .p3>a {
+    text-decoration: none;
+    color: #4a4e88;
+}
+.body .right form .p3>a:hover {
+    text-decoration: underline;
+}
+.footer {
+    height: 150px;
+    margin-top: 27px;
+}
+.footer .align {
+    width: 70%;
+    margin: auto;
+    color: #7a7f91;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .language {
+    font-size: 12px;
+    display: flex;
+}
+.footer .language>p{
+    margin-right: 12px;
+}
+.footer a{
+    color: #36638d;
+    text-decoration: none;
+    margin-right: 12px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer .line {
+    height: 8px;
+    border-bottom: 1px solid #dddfe5;
+    font-size: 1px;
+    margin-bottom: 8px;
+}
+.footer .menu {
+    margin-bottom: 30px;
+}
+.footer .menu>a {
+    margin-right: 14px;
+    font-size: 13px;
+}
+.footer .align>p {
+    font-size: 11px;
+}

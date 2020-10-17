@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Trang cá nhân</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        <link href="loginStyle.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#myPage">SKOOL</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a><span class="glyphicon glyphicon-user"></span>Admin</a></li>
+                            <li><button style="background-color:#f1a246; color: white; margin-top: 2px;"type="button" class="btn btn-lg"
+                                onclick="window.location.href='webschool.html'"></a><span class="glyphicon glyphicon-log-out"></span> Đăng xuất</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div style="margin-top: 40px;" class="my-container-fluid text-center">
+                <h2>Quản lý học sinh</h2>
+                <br><br>
+                <div class="row slideanim">
+                    <div class="col-sm-4">
+                        <button style="width:300px; height: 200px;" type="button" class="btn btn-default">
+                            <span class="glyphicon glyphicon-search logo-small"></span>
+                            <h4>Tìm kiếm</h4>
+                        </button>
+                    </div>
+                    <div class="col-sm-4">
+                        <button style="width:300px; height: 200px;" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-plus logo-small"></span>
+                        <h4>Thêm học sinh</h4>
+                    </button>
+                    </div>
+                    <div class="col-sm-4">
+                        <button style="width:300px; height: 200px;" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-wrench logo-small"></span>
+                        <h4>Quản lý danh sách học sinh</h4>
+                    </button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row slideanim">
+                    <div class="col-sm-4">
+                        <button style="width:300px; height: 200px;" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-list-alt logo-small"></span>
+                        <h4>Quản lý điểm</h4>
+                    </button>
+                    </div>
+                    <div class="col-sm-4">
+                        <button style="width:300px; height: 200px;" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-book logo-small"></span>
+                        <h4>Quản lý môn học</h4>
+                        </button>
+                    </div>
+                    <div class="col-sm-4">
+                        <button style="width:300px; height: 200px;" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-check logo-small"></span>
+                        <h4>Quản lý học phí</h4>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
